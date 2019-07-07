@@ -59,3 +59,9 @@ IAM User Policy
     ]
 }
 # amazon-s3-bucket
+
+# Ref
+https://medium.com/@imranhsayed/file-or-image-uploads-on-amazon-web-services-aws-using-react-node-and-express-js-aws-sdk-252742286162
+
+https://medium.com/@imranhsayed/how-to-create-a-user-and-bucket-amazon-web-services-aws-40631416e65
+
