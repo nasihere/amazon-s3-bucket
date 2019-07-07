@@ -4,6 +4,7 @@ const path = require( 'path' );
 
 const router = express.Router();
 const bundleUpload = require( './routes/api/bundleUpload' );
+const bundleRead = require( './routes/api/bundleRead' );
 
 
 const app = express();
@@ -16,6 +17,7 @@ const app = express();
 app.use( bodyParser.urlencoded( { extended: false } ) );
 app.use( bodyParser.json() );
 app.use( '/api/bundle', bundleUpload );
+app.use('/api/s3Proxy', bundleRead);
 
 // We export the router so that the server.js file can pick it up
 module.exports = router;
